@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>BlueLife | Fogalmak</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/logo.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
+
+
+<script href="./js/bl.js"></script>
+<link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+  <body onload="myFunction()" style="margin:0;">
+  
+  <div id="loader"></div>
+  
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+  
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+<center>
+    <img src="./images/bl.png" style="width:45%;" class="w3-round"><br><br>
+    <h2 class="w3-text-white"><b>BlueLife v2<br></b></h2>
+    <hr>
+    <h4 class="w3-text-white">
+            <h5 class="w3-text-white">
+                A régi élmények...
+            </h5>
+    </b>
+</center>
+</h4>
+  </div>
+  <br>
+  <br>
+  <div class="w3-bar-block">
+    <h4>
+    <p class="ip">
+      <del>-------------------</del><br>
+      <b>IP: <i><a href="mtasa://37.221.214.45:22003">CSATLAKOZÁS</a></i></b><br>
+      <del>-------------------</del>
+    </p>
+  </h4>
+    <center>
+        <br>
+    <iframe src="https://discord.com/widget?id=662033526773907456&theme=dark" width="270" height="445" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </center>
+  </div>
+
+  
+
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="home">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b></b></h1>
+    </div>
+  </header>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+  <center>
+          <div class="topnav" id="myTopnav">
+            <a href="index.html">Főoldal</a>
+            <a href="rules.html">Szabályzat</a>
+            <a href="fogalmak.html" class="active">Fogalmak</a>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Egyéb 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="szuksegesek.html">Szükségesek</a>
+                <a href="changelog.html">Changelog</a>
+                <a href="https://discord.gg/QcRFgrtaFP">Discord</a>
+              </div>
+            </div> 
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+  </center>
+  <div class="">
+    
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+      <div class="w3-container">
+        <p class="w3-opacity">
+          <center>
+            <p class="w3-xxlarge font-effect-shadow-multiple">RP fogalmak</p>
+          </center>
+        </p>
+        <div class="w3-container">
+          
+            <input class="w3-input w3-border w3-padding" type="text" placeholder="Kereséshez kezd el gépelni a keresendő fogalmat!" id="myInput" onkeyup="myFunction2()">
+          
+            <table class="w3-table-all w3-margin-top" id="myTable">
+              <tr>
+                <th style="width:15%;">RP fogalom neve</th>
+                <th style="width:20%;"></th>
+                <th style="width:65%;">Magyarázat</th>
+              </tr>
+              <tr>
+                <td>RP</td>
+                <td>RolePlay</td>
+                <td>Szerepjáték</td>
+              </tr>
+              <tr>
+                <td>NONRP</td>
+                <td>Nem szerepjáték</td>
+                <td>Szabálytalanul játszott szerepjáték</td>
+              </tr>
+              <tr>
+                <td>IRL</td>
+                <td>In Real Life</td>
+                <td>A való életben</td>
+              </tr>
+              <tr>
+                <td>IC</td>
+                <td>In Character</td>
+                <td>Karakteren belüli cselekedetek/történések</td>
+              </tr>
+              <tr>
+                <td>OOC</td>
+                <td>Out Of Character</td>
+                <td>Karakteren kívüli cselekedetek/történések</td>
+              </tr>
+              <tr>
+                <td>MG</td>
+                <td>Meta Gaming</td>
+                <td>OOC adatok felhasználása IC</td>
+              </tr>
+              <tr>
+                <td>PG</td>
+                <td>Power Gaming</td>
+                <td>Hősködés</td>
+              </tr>
+              <tr>
+                <td>RK</td>
+                <td>Revenge Kill</td>
+                <td>Bosszúból való ölés </td>
+              </tr>
+              <tr>
+                <td>DM</td>
+                <td>Death Mach</td>
+                <td>Indíték nélküli gyilkolászás</td>
+              </tr>
+              <tr>
+                <td>DB</td>
+                <td>Drive By</td>
+                <td>Járművel való gyilkolás</td>
+              </tr>
+              <tr>
+                <td>TK</td>
+                <td>Team Kill</td>
+                <td>Csapattárs meggyilkolása</td>
+              </tr>
+              <tr>
+                <td>SK</td>
+                <td>Spawn Kill</td>
+                <td>A játékba épp csak belépett, vagy valahonnan ki-belépő játékos megölése</td>
+              </tr>
+              <tr>
+                <td>NRK</td>
+                <td>Nem Reális Közlekedés</td>
+                <td>Az RP keretein kívül eső közlekedési forma. Pl.: sportautó terepen való használata</td>
+              </tr>
+              <tr>
+                <td>HQ</td>
+                <td>HeadQuarter</td>
+                <td>Egy frakció főhadiszállása, kizárólag OOC használható</td>
+              </tr>
+              <tr>
+                <td>Fail RP</td>
+                <td>Szereptévesztés</td>
+                <td>Olyan cselekedeted, ami nem egyeztethető össze az RP-zett karakterrel</td>
+              </tr>
+              <tr>
+                <td>Force RP</td>
+                <td>Kényszerített RP</td>
+                <td>Saját RP ráerőltetése a másik játékosra.</td>
+              </tr>
+            </table>
+            <p>
+            </p>
+            <p>
+            </p>
+          </div>
+      </div>
+    </div>
+    <!--FEHÉR TERÜLETEN KÍVÜL-->
+    WEBSITE BY - WESTKOSZTOLÁNYI
+    </div>
+
+  <!-- End Right Column -->
+  </div>
+  
+</div>
+</div>
+
+<!--
+  WEBSITE BY WESTKOSZTOLÁNYI
+-->
+
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+
+
+  function myFunction2() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+
+  </script>
+
+</body>
+</body>
+</html>
